@@ -1,69 +1,26 @@
 body {
-	background-color: gray;
+	background: url("lulu09-jvfnB1sJFbQ-unsplash.jpg");
 }
 
-ul.test {
-	background-color: mediumseagreen;
-	border: 2px solid violet;
-	color: blue;
-	padding: 20px;				<!-- space between text and border -->
+
+div.myHead {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	
 }
 
-p2 {
-	font-size: 20px;
-	color: cyan;
+div.aboutMe	{
+	position: absolute;
+	top: 37%;
+	left: 10%;
 }
 
-h2.error {					<!-- a class for h2 that can be used -->
-	color: powderblue;
-	border: 2px solid violet
-}
-
-.center {
-	text-align: center;
-}
-
-.city {
-	background-color: tomato;
-}
-
-ul.barmenu {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333333;
-}
-
-li.menu {
-	float: left;
-	display: block;
-  	color: white;
-	text-align: center;
-	padding: 16px;
-	text-decoration: none;
-}
-
-a:link {
-	color: green;
-	background-color: transparent;
-	text-decoration: none;
-}
-
-a:visited {
-	color: salmon;
-	background-color: transparent;
-	text-decoration: none;
-}
-
-a:hover {
-	color: red;
-	background-color: transparent;
-	text-decoration: none;
-}
-
-a:active {
-	color: yellow;
-	background-color: transparent;
-	text-decoration: none;
+div.contactContainer {
+	position: absolute;
+	background-color: #66CDAA;
+	border-radius: 5px;
+	padding: 20px;
+	bottom: 10px;
+	
 }
