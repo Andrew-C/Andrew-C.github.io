@@ -1,2 +1,2 @@
 # Andrew-C.github.io
-My webiste
+My website
